@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    max-width: 100vh;
+    max-height: 100vh;
+    padding: 32px 64px;
+    object-fit: cover;
+
+}
+
+main {
+    min-width: 90vw;
+    min-height: calc(100vh - 128px);
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+section {
+    margin: 32px;
+}
+
+nav {
+
+}
+
+.but{
+    background-color: #feda70;
+    color: #8d5b1a;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
